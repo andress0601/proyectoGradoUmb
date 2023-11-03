@@ -1,0 +1,1025 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.44f1 (7f159b6136da) revision 8328603'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 15205 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/STEAM-DECK/Desktop/Brazo AR - ultimo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59333
+Successfully changed project path to: C:/Users/STEAM-DECK/Desktop/Brazo AR - ultimo
+C:/Users/STEAM-DECK/Desktop/Brazo AR - ultimo
+Using Asset Import Pipeline V2.
+Player connection [23760] Host "[IP] 192.168.56.1 [Port] 1073957088 [Flags] 2 [Guid] 3625792474 [EditorId] 3625792474 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ART81G3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23760] Host "[IP] 192.168.56.1 [Port] 1073957088 [Flags] 2 [Guid] 3625792474 [EditorId] 3625792474 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ART81G3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 103.42 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 7.03 ms.
+Initialize engine version: 2020.3.44f1 (7f159b6136da)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/STEAM-DECK/Desktop/Brazo AR - ultimo/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Custom GPU 0405 (ID=0x163f)
+    Vendor:   
+    VRAM:     7602 MB
+    Driver:   31.0.14033.2008
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002563 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.67 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (867ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (674ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.378 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2640ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2309ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (404ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (1145ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.9 MB.
+System memory in use after: 78.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 3.739300 ms (FindLiveObjects: 0.265400 ms CreateObjectMapping: 0.049200 ms MarkObjects: 3.302000 ms  DeleteObjects: 0.121600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/DB/Question/question_1.prefab
+  artifactKey: Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_1.prefab using Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0713eb231a42b67e0735833f38d0c12e') in 0.723683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.579646 seconds.
+  path: Assets/DB/Question/question_1.prefab
+  artifactKey: Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_1.prefab using Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ce14949345dcc4ec90a8d36974bcf0') in 0.010569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.252428 seconds.
+  path: Assets/DB/Question/question_1.prefab
+  artifactKey: Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_1.prefab using Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91eb81450f60eb6ecd70194c7b3c3839') in 0.007367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.186463 seconds.
+  path: Assets/DB/Question/question_1.prefab
+  artifactKey: Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_1.prefab using Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cb76524c48edb2528b9d806da4d3e3') in 0.007140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.955950 seconds.
+  path: Assets/DB/Question/question_1.prefab
+  artifactKey: Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_1.prefab using Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b80ca2a7ad38a275dd1e88812fc30b') in 0.010104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.909231 seconds.
+  path: Assets/DB/Question/question_1.prefab
+  artifactKey: Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_1.prefab using Guid(04c9cac3ba8ac724c9716003ff094588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb9f1bbcc11be7d8e06a4010e02d5d6') in 0.009364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.808659 seconds.
+  path: Assets/DB/Question/question_2.prefab
+  artifactKey: Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_2.prefab using Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb70aee22ee1b99d9a080c0e9e0c0ff9') in 0.025772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.266479 seconds.
+  path: Assets/DB/Question/question_2.prefab
+  artifactKey: Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_2.prefab using Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe64c4cfde552de08b34432481702e5') in 0.012251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.707512 seconds.
+  path: Assets/DB/Question/question_2.prefab
+  artifactKey: Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_2.prefab using Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb4fcf67d79021097abaecfb10f8c92') in 0.035236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.120238 seconds.
+  path: Assets/DB/Question/question_2.prefab
+  artifactKey: Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_2.prefab using Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9685a100a082dc71ef333e48cb6b0826') in 0.009136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.880615 seconds.
+  path: Assets/DB/Question/question_2.prefab
+  artifactKey: Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_2.prefab using Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9c21ad3e5c34aa3bb9d17edbfba62e') in 0.008319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.763105 seconds.
+  path: Assets/DB/Question/question_2.prefab
+  artifactKey: Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_2.prefab using Guid(36ad9c48e1adf1e48b2831830ddbed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78c2db791fb72b2988ad4fca9bb17c6') in 0.006948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.888075 seconds.
+  path: Assets/DB/Question/question_3.prefab
+  artifactKey: Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_3.prefab using Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05223a18b72a5f18f79f93da939851e1') in 0.021825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.710210 seconds.
+  path: Assets/DB/Question/question_3.prefab
+  artifactKey: Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_3.prefab using Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbb8f2959d16b9a6e9054583d411938') in 0.053413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.574769 seconds.
+  path: Assets/DB/Question/question_3.prefab
+  artifactKey: Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_3.prefab using Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024adbe292458888adfa3deb25625895') in 0.006317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.037486 seconds.
+  path: Assets/DB/Question/question_3.prefab
+  artifactKey: Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_3.prefab using Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb86fb736d6e9f9fb34d502c43d9b2a0') in 0.039408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.731952 seconds.
+  path: Assets/DB/Question/question_3.prefab
+  artifactKey: Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_3.prefab using Guid(1b4c682632adf5d4e9e0aec555fd307f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2b0f2d8d8da266f1fc022e301b4f2d') in 0.006243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.381203 seconds.
+  path: Assets/DB/Question/question_4.prefab
+  artifactKey: Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_4.prefab using Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12105037b75cc903a6914d74e7f7d9b') in 0.023717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.206435 seconds.
+  path: Assets/DB/Question/question_4.prefab
+  artifactKey: Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_4.prefab using Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67643c14104a519133959362afbaec0d') in 0.006442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.987488 seconds.
+  path: Assets/DB/Question/question_4.prefab
+  artifactKey: Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_4.prefab using Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12dfd0ec55a27d2af6122f5ab60335b') in 0.024747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.202360 seconds.
+  path: Assets/DB/Question/question_4.prefab
+  artifactKey: Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_4.prefab using Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba218837144a2d0da72d76ad3d615c1') in 0.007304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.433794 seconds.
+  path: Assets/DB/Question/question_4.prefab
+  artifactKey: Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_4.prefab using Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637a0a1e2376991a18176bd9387e79ef') in 0.007391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.099541 seconds.
+  path: Assets/DB/Question/question_4.prefab
+  artifactKey: Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_4.prefab using Guid(8968b3c431f8a4f4b8ae1b4d80be79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224acf66d9dd9ad7bd34d583bbd581e0') in 0.007494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.263311 seconds.
+  path: Assets/DB/Question/question_5.prefab
+  artifactKey: Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_5.prefab using Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64281e85a7a8abbaf8cbb8ed4bcf72cc') in 0.023314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.259975 seconds.
+  path: Assets/DB/Question/question_5.prefab
+  artifactKey: Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_5.prefab using Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efccdc4c50e09ca5fe4198d1a2b0467') in 0.007123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.662849 seconds.
+  path: Assets/DB/Question/question_5.prefab
+  artifactKey: Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_5.prefab using Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501a6ae44cc1f8382a98dac75160989e') in 0.005847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.357295 seconds.
+  path: Assets/DB/Question/question_5.prefab
+  artifactKey: Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_5.prefab using Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e3f289cb1590c05bf399fe9da440be') in 0.006762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.664093 seconds.
+  path: Assets/DB/Question/question_5.prefab
+  artifactKey: Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_5.prefab using Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323da97079097e85c4d4402982d7ca22') in 0.005847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.576878 seconds.
+  path: Assets/DB/Question/question_5.prefab
+  artifactKey: Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_5.prefab using Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3d06b9dfe475f562b5f392126dfd37') in 0.095628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.248414 seconds.
+  path: Assets/DB/Question/question_5.prefab
+  artifactKey: Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_5.prefab using Guid(8d965d032cbcaa8479c5a547c3bb1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da881283e4430cf6b33f88a89148b7d') in 0.005307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.206425 seconds.
+  path: Assets/DB/Question/question_5 - copia (2).prefab
+  artifactKey: Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_5 - copia (2).prefab using Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f650c6aeb1446904d234e668a842cc') in 0.025652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/DB/Question/question_8 - copia (2).prefab
+  artifactKey: Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_8 - copia (2).prefab using Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60e565a3d0e044fc71e8c3a400addb1') in 0.026517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/DB/Question/question_5 - copia.prefab
+  artifactKey: Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_5 - copia.prefab using Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdd4a101c460e9e5a0cee756379b1fc') in 0.027068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/DB/Question/question_6 - copia (2).prefab
+  artifactKey: Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_6 - copia (2).prefab using Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a99244ab0a57a2e49d0b9d83af0cc99') in 0.423744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/DB/Question/question_7 - copia.prefab
+  artifactKey: Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_7 - copia.prefab using Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cad08d0cfe2cef0b0752c3e47bc7a00') in 0.066154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/DB/Question/question_8 - copia.prefab
+  artifactKey: Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_8 - copia.prefab using Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40f95305544753c4e5e86a2311700e5') in 0.023174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/DB/Question/question_9 - copia (2).prefab
+  artifactKey: Guid(1dec6aab1b7491147b3b02bb0510760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_9 - copia (2).prefab using Guid(1dec6aab1b7491147b3b02bb0510760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a709de9dda1e7727255fe90ce8d1f1') in 0.023618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/DB/Question/question_6 - copia.prefab
+  artifactKey: Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_6 - copia.prefab using Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97a91f1f0f4f7aa4d1911a2b2ca36bf') in 0.070324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/DB/Question/question_7 - copia (2).prefab
+  artifactKey: Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_7 - copia (2).prefab using Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbe0ea8c7edade2331adbf428be3388') in 0.022412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.076191 seconds.
+  path: Assets/DB/Question/question_9 - copia.prefab
+  artifactKey: Guid(23f2e91bb2d8ca34b9a1ac7104389201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_9 - copia.prefab using Guid(23f2e91bb2d8ca34b9a1ac7104389201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f453e6c3c2dc7924f01ffe92a03803d8') in 0.024664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/DB/Question/question_10 - copia.prefab
+  artifactKey: Guid(1452d3c3fa6e4cc46ad00d353c08f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_10 - copia.prefab using Guid(1452d3c3fa6e4cc46ad00d353c08f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3887efee70201fe75168d1e64bbb88a1') in 0.426663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/DB/Question/question_10 - copia (2).prefab
+  artifactKey: Guid(a67eb0d740a6d8a4abba87ff6cd2122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_10 - copia (2).prefab using Guid(a67eb0d740a6d8a4abba87ff6cd2122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8448c0ac257671a6c5c87b5f5aa4242b') in 0.021063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.219347 seconds.
+  path: Assets/DB/Question/question_11.prefab
+  artifactKey: Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_11.prefab using Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b14c784a82c1082c1dc1747c56379a2') in 0.026014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.249537 seconds.
+  path: Assets/DB/Question/question_12.prefab
+  artifactKey: Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_12.prefab using Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2839616176570a24a9e29034fc9dc12f') in 0.049835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.388111 seconds.
+  path: Assets/DB/Question/question_13.prefab
+  artifactKey: Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_13.prefab using Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d73155262f6c0cf8d5789c4b096ad2') in 0.021239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.594880 seconds.
+  path: Assets/DB/Question/question_14.prefab
+  artifactKey: Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_14.prefab using Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438cff122ad46915f18a1edeac22e08f') in 0.024016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.581803 seconds.
+  path: Assets/DB/Question/question_15.prefab
+  artifactKey: Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_15.prefab using Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a7d6e0c1766c43cf5417a92976f139') in 0.022289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.372897 seconds.
+  path: Assets/DB/Question/question_16.prefab
+  artifactKey: Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_16.prefab using Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c97b65d418cca9469ca3cac6dd365a') in 0.030898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.239714 seconds.
+  path: Assets/DB/Question/question_17.prefab
+  artifactKey: Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_17.prefab using Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9960589f53a5ea9dd8c061038d5bf7') in 0.025090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.025545 seconds.
+  path: Assets/DB/Question/question_18.prefab
+  artifactKey: Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_18.prefab using Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5e0f270d3fc799661302e8bf3f64e6') in 0.082022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.636421 seconds.
+  path: Assets/DB/Question/question_19.prefab
+  artifactKey: Guid(1dec6aab1b7491147b3b02bb0510760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_19.prefab using Guid(1dec6aab1b7491147b3b02bb0510760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1724f33858e6ea8aa32e050a79c16a') in 0.021340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.747233 seconds.
+  path: Assets/DB/Question/question_20.prefab
+  artifactKey: Guid(23f2e91bb2d8ca34b9a1ac7104389201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_20.prefab using Guid(23f2e91bb2d8ca34b9a1ac7104389201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ad60a6a551e72289e56acacb79f33b') in 0.021622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.806845 seconds.
+  path: Assets/DB/Question/question_6.prefab
+  artifactKey: Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_6.prefab using Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773b762120fc3446f738b3fd4e03682f') in 0.080877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.905902 seconds.
+  path: Assets/DB/Question/question_6.prefab
+  artifactKey: Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_6.prefab using Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8992a3bcbb5346661733a528d3167da8') in 0.103784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.163244 seconds.
+  path: Assets/DB/Question/question_6.prefab
+  artifactKey: Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_6.prefab using Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3111141e731c518ab4d867037d97cbc') in 1.617914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116785 seconds.
+  path: Assets/DB/Question/question_6.prefab
+  artifactKey: Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_6.prefab using Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb24be7b750eb4f805a94c562ede9b94') in 0.010305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.773363 seconds.
+  path: Assets/DB/Question/question_6.prefab
+  artifactKey: Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_6.prefab using Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06041be416fae8475f358871303a0dd') in 0.679912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.665992 seconds.
+  path: Assets/DB/Question/question_6.prefab
+  artifactKey: Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_6.prefab using Guid(8311baaf265636c45b288a7b1ec2aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74de20f5902e98ae914ac70ed9347a') in 0.005515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.708311 seconds.
+  path: Assets/DB/Question/question_7.prefab
+  artifactKey: Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_7.prefab using Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a8a94a6f32e028d95cfddd88105644') in 0.022013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.052469 seconds.
+  path: Assets/DB/Question/question_7.prefab
+  artifactKey: Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_7.prefab using Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cda9aade78801152091c1814c4e48a1') in 0.047016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.774778 seconds.
+  path: Assets/DB/Question/question_7.prefab
+  artifactKey: Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_7.prefab using Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f74f8ddedfc57f4d9dc94079c19de3c') in 0.065234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.525987 seconds.
+  path: Assets/DB/Question/question_7.prefab
+  artifactKey: Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_7.prefab using Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6f33fea4c5a4865e46523e4bcf4914') in 0.006889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.077338 seconds.
+  path: Assets/DB/Question/question_7.prefab
+  artifactKey: Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_7.prefab using Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7843fcf571396adfdd6fdff935f65efe') in 0.006146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.455761 seconds.
+  path: Assets/DB/Question/question_7.prefab
+  artifactKey: Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_7.prefab using Guid(acb9ffac8e91ee542bd94f6f55ab4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e378a0f121e361e211df612e34cddc56') in 0.005410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.438987 seconds.
+  path: Assets/DB/Question/question_8.prefab
+  artifactKey: Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_8.prefab using Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79aa04c176607820c568e0d787f255fb') in 0.022257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.998700 seconds.
+  path: Assets/DB/Question/question_8.prefab
+  artifactKey: Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_8.prefab using Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b725ed7126981f25b9774c09302f55a') in 0.010617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.558161 seconds.
+  path: Assets/DB/Question/question_8.prefab
+  artifactKey: Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_8.prefab using Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9654ac72cf7db65cc22d9ed8d6dc4a') in 0.005728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.333554 seconds.
+  path: Assets/DB/Question/question_8.prefab
+  artifactKey: Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_8.prefab using Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ab73f7827ef9588b72eee62ecaee4f') in 0.006901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.144336 seconds.
+  path: Assets/DB/Question/question_8.prefab
+  artifactKey: Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_8.prefab using Guid(3d4e246bcc138ab4f9836663ee58278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc62dcb2a428c396de9a5f780fa4da98') in 0.005041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.982297 seconds.
+  path: Assets/DB/Question/question_9.prefab
+  artifactKey: Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_9.prefab using Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86531857430c4c5b3cdecd24321dd1fb') in 0.020986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.542152 seconds.
+  path: Assets/DB/Question/question_9.prefab
+  artifactKey: Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_9.prefab using Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527cbf4770ba63f4af990e0fec3b2b4e') in 0.114786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.906875 seconds.
+  path: Assets/DB/Question/question_9.prefab
+  artifactKey: Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_9.prefab using Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d96d7f20b450732021f6fe292663035') in 0.006250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.951319 seconds.
+  path: Assets/DB/Question/question_9.prefab
+  artifactKey: Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_9.prefab using Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb7758157b69d4f0a5601af50be408f') in 1.370550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.897419 seconds.
+  path: Assets/DB/Question/question_9.prefab
+  artifactKey: Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_9.prefab using Guid(28d8befcaff59804aa87a1204ebd250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14ccd05a34915f9ddeace017f728f03') in 0.038552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.974136 seconds.
+  path: Assets/DB/Question/question_10.prefab
+  artifactKey: Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_10.prefab using Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30b1b339ff72835a62a634e366cd23a') in 0.024612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.987934 seconds.
+  path: Assets/DB/Question/question_10.prefab
+  artifactKey: Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_10.prefab using Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f29d08141537be4fab3c1fd3f25887') in 0.006075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.545282 seconds.
+  path: Assets/DB/Question/question_10.prefab
+  artifactKey: Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_10.prefab using Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dca759786820ae4c224e3a3e2799035') in 0.006198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.589880 seconds.
+  path: Assets/DB/Question/question_10.prefab
+  artifactKey: Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_10.prefab using Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec523a0e4cd883388576a7d38eb29ad') in 0.005822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.081497 seconds.
+  path: Assets/DB/Question/question_10.prefab
+  artifactKey: Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_10.prefab using Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfce1010cd0bdbbbc70803ec57fd27fa') in 0.006392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.999695 seconds.
+  path: Assets/DB/Question/question_10.prefab
+  artifactKey: Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_10.prefab using Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3716eeb36ff0bde66b390fd7c90e29d2') in 0.006443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.661827 seconds.
+  path: Assets/DB/Question/question_10.prefab
+  artifactKey: Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_10.prefab using Guid(f2968aed8e66e1d43a160da0be74b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92722e2da42c3718d0e6368c40a30a45') in 0.007237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.381421 seconds.
+  path: Assets/DB/Question/question_11.prefab
+  artifactKey: Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_11.prefab using Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964ca818df30fd7c525fa88ffa6d5d69') in 0.006218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.706702 seconds.
+  path: Assets/DB/Question/question_11.prefab
+  artifactKey: Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_11.prefab using Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b94d05c7bfe865dbe6c76db796cf7b7') in 0.005915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.791488 seconds.
+  path: Assets/DB/Question/question_11.prefab
+  artifactKey: Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_11.prefab using Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e454f305feafb17eecb6159e9a40f8c') in 0.064276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.398874 seconds.
+  path: Assets/DB/Question/question_11.prefab
+  artifactKey: Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_11.prefab using Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c636b1fbbb594e59e3e5251629171c') in 0.005728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.442511 seconds.
+  path: Assets/DB/Question/question_11.prefab
+  artifactKey: Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_11.prefab using Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0a4803590c9a2b82942d42a870c1e4') in 0.006168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.772351 seconds.
+  path: Assets/DB/Question/question_11.prefab
+  artifactKey: Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_11.prefab using Guid(00272d8e0afabb749abbd97278322faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908de556690b88f9233689c544cda6e2') in 0.005753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.170866 seconds.
+  path: Assets/DB/Question/question_12.prefab
+  artifactKey: Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_12.prefab using Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68d129ea2ed8e35d50e472ea44c1047') in 0.006051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.319335 seconds.
+  path: Assets/DB/Question/question_12.prefab
+  artifactKey: Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_12.prefab using Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db36eb1a53380e64ce6eace0ecabef5f') in 0.006108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.912205 seconds.
+  path: Assets/DB/Question/question_12.prefab
+  artifactKey: Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_12.prefab using Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763f6b7c2d91b7b2e680702e5fb7648f') in 0.005757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.850891 seconds.
+  path: Assets/DB/Question/question_12.prefab
+  artifactKey: Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_12.prefab using Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c118f527a6988cf2b19bc212b6143117') in 0.006728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.710142 seconds.
+  path: Assets/DB/Question/question_12.prefab
+  artifactKey: Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_12.prefab using Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a91e9eff4efa6d4ec35c6c08c29861') in 0.005882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.625239 seconds.
+  path: Assets/DB/Question/question_12.prefab
+  artifactKey: Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_12.prefab using Guid(57e3e89e123df1c48a310566e1be3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304d30c09038132a4afe04326baa27db') in 0.006910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.390340 seconds.
+  path: Assets/DB/Question/question_13.prefab
+  artifactKey: Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_13.prefab using Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eb17f3ddbc60ba21057e5b2cb443e1') in 0.021827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.033617 seconds.
+  path: Assets/DB/Question/question_13.prefab
+  artifactKey: Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_13.prefab using Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f33aece4a5373bf8ad20c21c622777') in 0.005633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.037527 seconds.
+  path: Assets/DB/Question/question_13.prefab
+  artifactKey: Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_13.prefab using Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc452998147db071dd427cf171a6c2d6') in 0.052659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.271031 seconds.
+  path: Assets/DB/Question/question_13.prefab
+  artifactKey: Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_13.prefab using Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda80e9c515849c87d7d6baf8188628d') in 0.005888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.867501 seconds.
+  path: Assets/DB/Question/question_13.prefab
+  artifactKey: Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_13.prefab using Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf26564d384eca165596dc2668ea115') in 0.067104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.584560 seconds.
+  path: Assets/DB/Question/question_13.prefab
+  artifactKey: Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_13.prefab using Guid(6ad8b878b97f5934cab37a468bf4dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a744d9bb5f1f45ee8da3d0218f254a') in 0.006811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.946052 seconds.
+  path: Assets/DB/Question/question_14.prefab
+  artifactKey: Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_14.prefab using Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2166a238c447bcd1b0df8826ccc724') in 0.006382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.082223 seconds.
+  path: Assets/DB/Question/question_14.prefab
+  artifactKey: Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_14.prefab using Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4d3eda4eb2c5518fc97077f519bf08') in 0.005621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.485163 seconds.
+  path: Assets/DB/Question/question_14.prefab
+  artifactKey: Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_14.prefab using Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73edabe1d35d5b8354b0586d49749872') in 0.006450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.419393 seconds.
+  path: Assets/DB/Question/question_14.prefab
+  artifactKey: Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_14.prefab using Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7470030d260237634b7932b19a64c156') in 0.005377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.389702 seconds.
+  path: Assets/DB/Question/question_14.prefab
+  artifactKey: Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_14.prefab using Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ad92714cf8fafceca43e01cb40bef0') in 0.005642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.460917 seconds.
+  path: Assets/DB/Question/question_14.prefab
+  artifactKey: Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_14.prefab using Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f6649cb9fc763226ae60cf6dc6b333') in 0.005833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.361056 seconds.
+  path: Assets/DB/Question/question_14.prefab
+  artifactKey: Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_14.prefab using Guid(99c195aa2161cc94186535b50ca70fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd343101924e3885f1219502053f779a') in 0.006110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.996132 seconds.
+  path: Assets/DB/Question/question_15.prefab
+  artifactKey: Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_15.prefab using Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53cc261c7a04cacbbe6e90572d7dab0') in 0.025720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.409017 seconds.
+  path: Assets/DB/Question/question_15.prefab
+  artifactKey: Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_15.prefab using Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13607366c01776d614f8410aa0cfaf91') in 0.005787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.681213 seconds.
+  path: Assets/DB/Question/question_15.prefab
+  artifactKey: Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_15.prefab using Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693c1ae4c3ab565152d204164540eedb') in 0.005923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.039899 seconds.
+  path: Assets/DB/Question/question_15.prefab
+  artifactKey: Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_15.prefab using Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ecc75dce3a6a568c83993648b83aee') in 0.005947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.908338 seconds.
+  path: Assets/DB/Question/question_15.prefab
+  artifactKey: Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_15.prefab using Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebf2d46e63c6d183bdc53889eb66304') in 0.006489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.584128 seconds.
+  path: Assets/DB/Question/question_15.prefab
+  artifactKey: Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_15.prefab using Guid(7da8dadde57a2a642aeef19d8a78cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f1e15e5038f2d594f4bf70f138cbfd') in 0.005266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.932989 seconds.
+  path: Assets/DB/Question/question_16.prefab
+  artifactKey: Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_16.prefab using Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7202b32dbaf05caff784a04938168aa4') in 0.005988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.922639 seconds.
+  path: Assets/DB/Question/question_16.prefab
+  artifactKey: Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_16.prefab using Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010aeeb0e31865381e84555f8f851cff') in 0.005372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.758998 seconds.
+  path: Assets/DB/Question/question_16.prefab
+  artifactKey: Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_16.prefab using Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7c36a88d0945d22ec81d6c86def4fe') in 0.006462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.097331 seconds.
+  path: Assets/DB/Question/question_16.prefab
+  artifactKey: Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_16.prefab using Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b7d8e963a42443520a57c79c3ab7cd') in 0.006148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.443433 seconds.
+  path: Assets/DB/Question/question_16.prefab
+  artifactKey: Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_16.prefab using Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdb3df0ae385afbf30c8d5cc3a90497') in 0.185076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.552512 seconds.
+  path: Assets/DB/Question/question_16.prefab
+  artifactKey: Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_16.prefab using Guid(572483b551e4f3e4a884748366986909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710c03cad56ba1129010d839e9239d0e') in 0.005539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.961782 seconds.
+  path: Assets/DB/Question/question_17.prefab
+  artifactKey: Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_17.prefab using Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b691a6e861f9ae996999447a5362c0cb') in 0.007386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.641987 seconds.
+  path: Assets/DB/Question/question_17.prefab
+  artifactKey: Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_17.prefab using Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b791b21eddeb2c80ea9b870df0e7f0f9') in 0.681169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.687234 seconds.
+  path: Assets/DB/Question/question_17.prefab
+  artifactKey: Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_17.prefab using Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5220e4e181c2c2690d0c6fcfd9b9e3c2') in 0.005495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.712371 seconds.
+  path: Assets/DB/Question/question_17.prefab
+  artifactKey: Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_17.prefab using Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f284aa7168abf89940f8d580cb28ab') in 0.005974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.617041 seconds.
+  path: Assets/DB/Question/question_17.prefab
+  artifactKey: Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_17.prefab using Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190f5db3e5c1c410daf247b38c1ac75b') in 0.006090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.441538 seconds.
+  path: Assets/DB/Question/question_17.prefab
+  artifactKey: Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_17.prefab using Guid(ee2ecf740e42e1049b762ae600cd42d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fefcafc15cb5c1e24e28d0ebc0bcee') in 0.006360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.586929 seconds.
+  path: Assets/DB/Question/question_18.prefab
+  artifactKey: Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_18.prefab using Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f34b29bf51b3b40678044d2f92acee4') in 0.132678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.689743 seconds.
+  path: Assets/DB/Question/question_18.prefab
+  artifactKey: Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_18.prefab using Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8581fcb5ae7c9848340136df42ce0527') in 0.006135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.543347 seconds.
+  path: Assets/DB/Question/question_18.prefab
+  artifactKey: Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_18.prefab using Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132e186b63fc49500d6d57caf0e36983') in 0.005195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.215431 seconds.
+  path: Assets/DB/Question/question_18.prefab
+  artifactKey: Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_18.prefab using Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2debdb11a2e903e13ee58ae53fb00e') in 0.007732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.846128 seconds.
+  path: Assets/DB/Question/question_18.prefab
+  artifactKey: Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DB/Question/question_18.prefab using Guid(73c32412ec4eba4479bd2121d3054c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd9ba5681ce8b552ed5c18c6dfc217a') in 0.005879 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.685 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1392ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (599ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (476ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
+Unloading 1531 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 4.408000 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.051400 ms MarkObjects: 4.001600 ms  DeleteObjects: 0.047000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1739ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1421ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (625ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (504ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+Unloading 1531 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2307.
+Total: 5.287000 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.092800 ms MarkObjects: 4.851900 ms  DeleteObjects: 0.046400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
